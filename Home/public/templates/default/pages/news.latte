@@ -1,0 +1,12 @@
+<div>
+    Welcome to {$page}
+</div>
+
+{foreach $news_forum as $new_forum}
+    <div>
+        {$new_forum['name']}<br>
+        {$new_forum['text']}<br>
+        {$new_forum['date']}<br>
+    </div>
+    <hr>
+{/foreach}
